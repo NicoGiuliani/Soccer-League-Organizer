@@ -22,10 +22,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LeagueManager.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LeagueManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LeagueManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.7620529">
               <caret line="372" column="3" selection-start-line="372" selection-start-column="3" selection-end-line="372" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Prompter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Prompter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Prompter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7882535">
-              <caret line="231" column="37" selection-start-line="231" selection-start-column="37" selection-end-line="231" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="225" column="31" selection-start-line="225" selection-start-column="31" selection-end-line="225" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,8 +118,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="784" />
+    <option name="width" value="1292" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -404,8 +404,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="784" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1292" height="780" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -920,20 +920,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeagueManager.java">
+    <entry file="file://$PROJECT_DIR$/Prompter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="372" column="3" selection-start-line="372" selection-start-column="3" selection-end-line="372" selection-end-column="3" />
+          <caret line="225" column="31" selection-start-line="225" selection-start-column="31" selection-end-line="225" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Prompter.java">
+    <entry file="file://$PROJECT_DIR$/LeagueManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7882535">
-          <caret line="231" column="37" selection-start-line="231" selection-start-column="37" selection-end-line="231" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.7620529">
+          <caret line="372" column="3" selection-start-line="372" selection-start-column="3" selection-end-line="372" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
