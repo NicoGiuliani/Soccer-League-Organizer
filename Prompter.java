@@ -221,13 +221,15 @@ public class Prompter {
         System.out.println("\nCURRENT TEAMS");
         System.out.println("==========================");
         for (Team team : seasonTeams) {
-            System.out.printf("Name: ");
+            System.out.printf("Team Name: ");
             System.out.println(team.mTeamName);
-            System.out.printf("Team Coach: ");
+            System.out.printf("Coach: ");
             System.out.println(team.mCoach);
 
             if (team.mTeamPlayers.size() != 0) {
                 displayPlayers(team);
+            } else {
+                System.out.println();
             }
         }
     }
