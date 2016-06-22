@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f83104f6-6ffc-4537-8cd7-01f096a84c4e" name="Default" comment="" />
+    <list default="true" id="f83104f6-6ffc-4537-8cd7-01f096a84c4e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
     <ignored path="Soccer Project.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,7 +27,7 @@
       <file leaf-file-name="LeagueManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LeagueManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7620529">
+            <state vertical-scroll-proportion="2.5257733">
               <caret line="372" column="3" selection-start-line="372" selection-start-column="3" selection-end-line="372" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -89,6 +91,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -117,7 +122,6 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
     <option name="width" value="1292" />
     <option name="height" value="780" />
   </component>
@@ -146,7 +150,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -404,7 +408,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1292" height="780" extended-state="0" />
+    <frame x="-8" y="0" width="1292" height="780" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -932,7 +936,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeagueManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7620529">
+        <state vertical-scroll-proportion="2.5257733">
           <caret line="372" column="3" selection-start-line="372" selection-start-column="3" selection-end-line="372" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
