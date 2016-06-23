@@ -234,6 +234,13 @@ public class Prompter {
         }
     }
 
+    public static void iteratePlayerList(List<Player> category) {
+        for (int i = 0; i < category.size(); i++) {
+            System.out.println((i + 1) + ") " + category.get(i).getFirstName() + " " + category.get(i).getLastName() +
+                    ", " + category.get(i).getHeightInInches() + "\"");
+        }
+    }
+
 
     public static boolean promptDeletionCheck() {
         System.out.print("Are you sure you would like to delete this team? ");

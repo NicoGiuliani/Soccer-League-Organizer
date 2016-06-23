@@ -227,7 +227,35 @@ public class LeagueManager {
 
                 // Sorts the list using height
                 Collections.sort(seasonTeams.get(teamIndex).mTeamPlayers, new Player());
-                Prompter.displayTeamPlayers(seasonTeams.get(teamIndex));
+                List<Player> categoryOne = new ArrayList<>();
+                List<Player> categoryTwo = new ArrayList<>();
+                List<Player> categoryThree = new ArrayList<>();
+
+                for (Player player : seasonTeams.get(teamIndex).mTeamPlayers) {
+
+                  int height = player.getHeightInInches();
+                  if (height < 38) {
+                    categoryOne.add(player);
+                  } else if (height >= 38 && height <= 43) {
+                    categoryTwo.add(player);
+                  } else {
+                    categoryThree.add(player);
+                  }
+
+                }
+
+                System.out.println("\n\nSHORTER THAN 38\"" + " (" + categoryOne.size() + " players)");
+                System.out.println("=========================");
+                Prompter.iteratePlayerList(categoryOne);
+
+                System.out.println("\n\n38\" UP TO 43\"" + " (" + categoryTwo.size() + " players)");
+                System.out.println("=========================");
+                Prompter.iteratePlayerList(categoryTwo);
+
+                System.out.println("\n\nTALLER THAN 43\"" + " (" + categoryThree.size() + " players)");
+                System.out.println("=========================");
+                Prompter.iteratePlayerList(categoryThree);
+                System.out.println();
 
 
               } catch (IndexOutOfBoundsException | NumberFormatException exception) {
@@ -244,7 +272,7 @@ public class LeagueManager {
 
 
 
-        // League Balance Report temp position
+        // League Balance Report
         case 6:
           // Determine percentage of experienced players
           if (seasonTeams.size() == 0) {
@@ -280,7 +308,6 @@ public class LeagueManager {
               }
             }
           }
-
           break;
 
 
