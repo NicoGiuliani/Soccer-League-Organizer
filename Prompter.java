@@ -23,7 +23,6 @@ public class Prompter {
     }
 
 
-
     public static void displayMainMenu() {
         String mainMenu = "\nMAIN MENU\n===========================\n";
         mainMenu += "1) Create new team\n";
@@ -40,8 +39,6 @@ public class Prompter {
     }
 
 
-
-
     public static int promptMenuChoice() {
         System.out.print("\nEnter a menu item number: ");
         try {
@@ -54,8 +51,6 @@ public class Prompter {
         }
         return 0;
     }
-
-
 
 
     public static String[] promptTeamCreation() {
@@ -95,7 +90,6 @@ public class Prompter {
     }
 
 
-
     public static void displayTeamEditMenu(List<Team> seasonTeams) {
         if (seasonTeams.size() == 0) {
             System.out.println("There are currently no teams to to edit.");
@@ -114,7 +108,7 @@ public class Prompter {
 
 
     public static int promptTeamSelection() {
-        System.out.printf("\nEnter the number of a team or type 'BACK': ");
+        System.out.print("\nEnter the number of a team or type 'BACK': ");
         String response = read();
 
         if (response != null) {
@@ -127,7 +121,6 @@ public class Prompter {
         }
         return -1;
     }
-
 
 
     public static void displayAllPlayers(Player[] players) {
@@ -155,7 +148,6 @@ public class Prompter {
     }
 
 
-
     public static void displayTeamPlayers(Team team) {
 
         if (team.mTeamPlayers.size() > 0) {
@@ -179,9 +171,8 @@ public class Prompter {
     }
 
 
-
     public static int promptPlayerSelection() {
-        System.out.printf("\nEnter the player number or type 'BACK': ");
+        System.out.print("\nEnter the player number or type 'BACK': ");
         String response = read();
         if (response != null) {
 
@@ -196,7 +187,6 @@ public class Prompter {
     }
 
 
-
     public static boolean promptContinue() {
         System.out.print("Continue adding to removal list? ");
         String response = read();
@@ -205,8 +195,7 @@ public class Prompter {
     }
 
 
-
-    public static void displayPlayers(Team teamName) {
+    private static void displayPlayers(Team teamName) {
         System.out.println("\nPLAYERS ON " + teamName.mTeamName.toUpperCase());
         System.out.println("==========================");
         for (Player player : teamName.mTeamPlayers) {
@@ -216,14 +205,13 @@ public class Prompter {
     }
 
 
-
     public static void displayTeams(List<Team> seasonTeams) {
         System.out.println("\nCURRENT TEAMS");
         System.out.println("==========================");
         for (Team team : seasonTeams) {
-            System.out.printf("Team Name: ");
+            System.out.print("Team Name: ");
             System.out.println(team.mTeamName);
-            System.out.printf("Coach: ");
+            System.out.print("Coach: ");
             System.out.println(team.mCoach);
 
             if (team.mTeamPlayers.size() != 0) {
@@ -233,6 +221,7 @@ public class Prompter {
             }
         }
     }
+
 
     public static void iteratePlayerList(List<Player> category) {
         for (int i = 0; i < category.size(); i++) {
@@ -249,8 +238,6 @@ public class Prompter {
         return response != null && (response.equalsIgnoreCase("yes") ||
                response.equalsIgnoreCase("yeah") || response.equalsIgnoreCase("y"));
     }
-
-
 
 
 }

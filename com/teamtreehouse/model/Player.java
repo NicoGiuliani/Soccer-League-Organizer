@@ -43,12 +43,14 @@ public class Player implements Comparator<Player>, Comparable<Player>, Serializa
     }
 
     public void toggleAvailability() {
-        if (available) {
-            available = false;
-        } else {
-            available = true;
-        }
+//        if (available) {
+//            available = false;
+//        } else {
+//            available = true;
+//        }
+        available = !available;
     }
+
 
     @Override
     public int compareTo(Player other) {
@@ -62,7 +64,6 @@ public class Player implements Comparator<Player>, Comparable<Player>, Serializa
         }
         return lastNameComp;
     }
-
 
 
     @Override
@@ -90,6 +91,7 @@ public class Player implements Comparator<Player>, Comparable<Player>, Serializa
         return lastName.equals(player.lastName);
 
     }
+
 
     @Override
     public int hashCode() {
